@@ -1,0 +1,104 @@
+#########################
+#         ASSOCIATION   #
+#########################
+{
+    "siren":"123456789",
+    "name":"AssociationTest",
+    "email":"test@gmail.com",
+    "password":"Lapiscine94!",
+    "repeat_password":"Lapiscine94!",
+    "adress":"33 route du spa",
+    "zip_code":"75015",
+    "city":"Les Dons",
+    "country":"France"
+}
+
+MAJ
+{
+    "name":"Test de patch",
+    "adress":"blablabla",
+    "zip_code":"87000",
+    "city":"OKOK"
+}
+#########################
+#         BENEVOLE        #
+#########################
+"username":"Clémentdu49",
+"secret":"test0"
+{
+    "email":"lefrontcnul@gmail.com",
+    "first_name":"Iliana",
+    "last_name":"Dagnicourt",
+    "phone":"0748938029",
+    "description":"Je m'appel Iliana et j'aime faire des composents React !",
+    "password":"Lapiscine94!",
+    "repeat_password":"Lapiscine94!",
+    "adress":"18 rue du belvedaire",
+    "zip_code":"94000",
+    "city":"La street",
+    "country": "France",
+    "username":"Clémentdu49",
+"secret":"test0"
+}
+
+{
+    "email":"clement@gmail.com",
+    "first_name":"Clément",
+    "last_name":"Raymond",
+    "phone":"0672819380",
+    "description":"Je m'appel Clément et j'aime faire du Node Js!",
+    "password":"Lapiscine94!",
+    "repeat_password":"Lapiscine94!",
+    "adress":"18 rue du relais",
+    "zip_code":"28100",
+    "city":"Crecy",
+    "country":"france"
+}
+{
+    "first_name":"TEST PATCH",
+    "last_name":"TEST PATCH",
+    "phone":"0767589430",
+    "description":"Je test de patch la description",
+
+}
+
+#########################
+#         LOGIN         #
+#########################
+{
+    "email":"test@gmail.com",
+    "password":"Lapiscine94!"
+}
+
+#########################
+#         ANNONCE       #
+#########################
+{
+    "title":"Ceci est un test",
+    "description":"J'aime bien les animaux",
+    "date":"2022-05-26",
+    "quotas":"10",
+    "association_id":1,
+    "status_id":2,
+    "city":"Lyon"
+}
+
+
+
+#########################
+#        TACHES         #
+#########################
+
+{
+ "description":"taches numero test"
+}
+
+
+#########################
+#         STATUS        #
+#########################
+
+{
+    "title":"status numero test"
+}
+

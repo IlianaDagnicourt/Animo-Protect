@@ -1,0 +1,28 @@
+@import url('http://fonts.cdnfonts.com/css/quiet-meows');
+
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #BFB38D;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+.title-new-annonce {
+  font-family: 'Quiet Meows', sans-serif;
+  font-size: 5vh;
+  color: $brown;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .title-new-annonce {
+    font-size: 3vh;
+    margin-top: 30px;
+  }
+}

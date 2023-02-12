@@ -1,0 +1,16 @@
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #BFB38D;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  background-color: $brown;
+  max-width: 100% !important;
+}

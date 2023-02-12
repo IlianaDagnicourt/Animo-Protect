@@ -1,0 +1,115 @@
+@import url('http://fonts.cdnfonts.com/css/quiet-meows');
+@import url('http://fonts.cdnfonts.com/css/smiling-animal');
+
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #BFB38D;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+
+
+.card-profil {
+  background-color: $very-pale-bg !important;
+  width: '50%';
+
+  .card-profil-header {
+    background-color: $blush !important;
+
+    .profil-header {
+      font-family: 'Quiet Meows', sans-serif;
+      font-size: 3vh;
+      color: $brown;
+    }
+  }
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.profil-p {
+  position: absolute !important;
+  font-family: 'Smiling Animal', sans-serif;
+  font-size: 2vh;
+  margin-top: 22px;
+  margin-left: 130px;
+}
+
+
+.card-subtitle, .card-text:last-child {
+  margin: 20px 20px 20px 20px;
+}
+
+.list-item .list-group-item {
+  background-color: $very-pale-bg !important;
+}
+
+.profil-container {
+  margin-bottom: 150px;
+}
+
+
+.update {
+  width: 75%;
+}
+
+.update-adress {
+  width: 25%;
+}
+
+.update-adress-cp {
+  width: 25%;
+  margin-left: 45%;
+}
+
+.update-adress-city {
+  width: 25%;
+  margin-left: 72%;
+}
+
+.update-title {
+  width: 75%;
+  font-family: 'Smiling Animal', sans-serif;
+}
+
+.button-update {
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .card-profil {
+    width: 90% !important;
+  }
+
+  .card-img-top {
+    height: 200px !important;
+  }
+
+  .icon {
+    width: 20px;
+  }
+
+  .cat-icon {
+    width: 60px;
+    height: 40px;
+  }
+
+  .card-profil .card-profil-header .profil-header {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

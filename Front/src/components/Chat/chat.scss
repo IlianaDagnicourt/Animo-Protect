@@ -1,0 +1,103 @@
+@import url('http://fonts.cdnfonts.com/css/quiet-meows');
+@import url('http://fonts.cdnfonts.com/css/smiling-animal');
+
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #a19675;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+.ce-my-message-bubble {
+    background-color: $blush !important;
+    color: $brown !important;
+}
+
+.ce-their-message-bubble {
+    background-color: $very-pale-gold !important;
+    color: $brown !important;
+}
+
+.ce-avatar {
+    background-color: $blush !important;
+    
+    .ce-avatar-text {
+        color: $brown !important;
+    }
+}
+
+.ce-chat-title-text {
+    color: $dark-pink;
+}
+
+.contact-button-chat {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: $very-pale-gold !important;
+    color: $brown !important;
+    border-radius: 10px !important;
+    border: 2px solid $brown !important;
+    margin-left: 30%;
+
+    :hover {
+        background-color: $brown !important;
+        color: $very-pale-gold !important;
+        border-radius: 10px !important;
+        border: 2px solid $very-pale-gold !important;
+    }
+}
+
+.ce-chat-card {
+    background-color: $very-pale-pink;
+    margin-bottom: 5%;
+
+    .ce-chat-title-text {
+        color: $brown;
+    }
+}
+.ce-chat-subtitle-text {
+    color: $brown;
+}
+
+.ce-avatar-dot {
+    background-color: $blush !important;
+}
+
+.placeholder-chat {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: $brown !important;
+}
+
+#ce-send-message-button {
+    background-color: $brown !important;
+    color: $very-pale-pink;
+}
+
+.ce-message-date-text {
+  color: $brown !important;
+}
+
+.ce-their-message-sender {
+  color: $dark-pink !important;
+}
+
+@media screen and (max-width: 480px){
+  .ce-chat-feed-container {
+    width: 95% !important;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: $brown !important;
+    height: 85% !important;
+  }
+.ce-message-form-container {
+    margin-bottom: 2vh;
+}
+
+}

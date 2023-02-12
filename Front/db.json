@@ -1,0 +1,78 @@
+{
+  "association": [{
+      "id": 1,
+      "name": "animo",
+      "city": "india",
+      "email": "animo.inda@gmail.com",
+      "siren": "123456789",
+      "password": "Abluhvdei76!",
+      "zip-code": "12098"
+  }, {
+      "id": 2,
+      "name": "anima",
+      "city": "wales",
+      "email": "anima.inda@gmail.com",
+      "siren": "123765890",
+      "password": "Kubeyhfg76!",
+      "zip-code": "45689"
+  }, {
+      "id": 3,
+      "name": "animi",
+      "city": "monaco",
+      "email": "animi.inda@gmail.com",
+      "siren": "123773890",
+      "password": "Kcbeifg76!",
+      "zip-code": "84523"
+  }
+],
+
+  "benevole": [{
+      "id": 1,
+      "name": "red",
+      "firstname":"lili",
+      "city": "paris",
+      "email": "red.lili@gmail.com",
+      "password": "mcodehuDg76!",
+      "zip-code": "12345"
+  }, {
+      "id": 2,
+      "name": "blue",
+      "firstname":"antoine",
+      "city": "wales",
+      "email": "blue.ant@gmail.com",
+      "password": "poivduH45!",
+      "zip-code": "74398"
+  }, {
+      "id": 3,
+      "name": "green",
+      "firstname":"lilou",
+      "city": "melun",
+      "email": "green.lil@gmail.com",
+      "password": "Bnxhhsuz90!",
+      "zip-code": "39753"
+  }
+],
+
+    "annonce": [
+      {
+        "id": 1,
+        "title": "covoit",
+        "description": "huh dughiug SUHUh bshygyGIU",
+        "date": "02/03/2022",
+        "label": "urgent",
+        "localisation": "paris"
+    }, {
+        "id": 2,
+        "title": "sortie",
+        "description": "lalal jijbhygdy",
+        "date": "18/12/2022",
+        "label": "",
+        "localisation": "angers"
+      }
+    ],
+
+    "login": [{
+      "email": "animo@gmail.com",
+      "password": "Miaou77!"
+    }]
+}

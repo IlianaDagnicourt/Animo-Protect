@@ -1,0 +1,17 @@
+%syntax-version=1.0.0
+%project=migrations
+
+init 2022-08-16T13:03:04Z Clément Raymond <clem.raymond@hotmail.fr> # Init BDD
+v1.1 2022-08-24T17:18:11Z Clément Raymond <clem.raymond@hotmail.fr> # Drop password regex and put ype String table
+v1.2 2022-08-24T17:18:45Z Clément Raymond <clem.raymond@hotmail.fr> # Change the regex for the phone Number
+v1.3 2022-08-25T09:09:07Z Clément Raymond <clem.raymond@hotmail.fr> # Add table Annonce_has_benevole & task_has_annonce
+v1.4 2022-08-25T16:26:48Z Clément Raymond <clem.raymond@hotmail.fr> # Ajout champs Pays a la table benevole et association
+v1.5 2022-08-25T19:41:43Z Clément Raymond <clem.raymond@hotmail.fr> # DROP Column Civility from table Benelove
+v1.6 2022-08-25T20:02:54Z Clément Raymond <clem.raymond@hotmail.fr> # ADD Column City to table Annonce
+v1.7 2022-08-26T12:41:50Z Clément Raymond <clem.raymond@hotmail.fr> # Update constraint ZIPCODE
+seeding 2022-08-26T21:03:36Z Clément Raymond <clem.raymond@hotmail.fr> # Seed BDD
+seedindV1.1 2022-08-26T21:56:37Z Clément Raymond <clem.raymond@hotmail.fr> # Seeding table annonce
+v1.8 2022-08-30T11:18:26Z Clément Raymond <clem.raymond@hotmail.fr> # ALTER TABLE Benevole & Association
+v1.9 2022-09-03T11:30:42Z Clément Raymond <clem.raymond@hotmail.fr> # Add field Phone and description to association
+v2.0 2022-09-03T15:47:43Z Clément Raymond <clem.raymond@hotmail.fr> # Change constraint NOT NULL description for benevole
+v2.1 2022-09-03T18:01:01Z Clément Raymond <clem.raymond@hotmail.fr> # add username field to table benevole & association

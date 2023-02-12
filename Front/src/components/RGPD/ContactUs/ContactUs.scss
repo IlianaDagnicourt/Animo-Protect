@@ -1,0 +1,50 @@
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #BFB38D;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+.container-contact-us {
+  border-radius: 10px;
+  background-color: $very-pale-bg;
+  border: $brown 2px solid;
+}
+
+form {
+  margin: 10px 15px 10px 15px;
+}
+
+.modal-container {
+  margin-bottom: 100px !important;
+}
+
+.mentions {
+  margin-left: 15%;
+  margin-right: 15%;
+  h1 {
+    font-size: 4vh !important;
+    color: $brown;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 2.8vh !important;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: $brown;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 2.4vh;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: $brown;
+  }
+}

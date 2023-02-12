@@ -1,0 +1,217 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Variables */
+$brown: #402a27;
+$bg-not-so-white: #f9f9f9;
+$very-pale-bg: #f7f4ef;
+$dark-gold: #BFB38D;
+$light-gold: #EAE6C1;
+$very-pale-gold: #f2f0dc;
+$very-pale-pink: #F6EBE4;
+$soft-pink: #FEE9EC;
+$blush: #efe2dc;
+$dark-pink: #D1B0BD;
+
+/* Règles générales */
+
+body {
+  background-color: $bg-not-so-white;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: 600;
+  color: $brown;
+}
+
+p {
+  color: #402a27;
+}
+
+button:focus {
+  outline:none;
+}
+
+.button-brown {
+  background-color: $brown;
+  color: $soft-pink;
+  border: $dark-pink 3px solid;
+
+  ::after {
+    box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    -moz-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+  }
+
+  &:hover {
+    background-color: $dark-pink;
+    color: $brown;
+    border: $brown 3px solid;
+  }
+
+  &:focus {
+    box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    -moz-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    background-color: #402a27;
+    color: $soft-pink;
+    border: $dark-pink 3px solid;
+  }
+}
+
+/* Floute le background lorsque la modale est ouverte */
+body.modal-open> :not(.modal) {
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+}
+
+/* Header and footer */
+
+.navbar {
+  background-color: $brown;
+  width: 100%;
+}
+.navbar-toggler {
+  background-color: $very-pale-bg;
+}
+
+.navItem {
+  color: $light-gold;
+
+  &:hover {
+    color: $bg-not-so-white;
+    text-shadow: -1px 5px 4px rgba(220, 206, 200, 0.84);
+  }
+}
+
+.sign-up {
+  background-color: #EAE6C1;
+  color: $brown;
+  border: #402a27 3px solid;
+
+  &:hover {
+    background-color: #402a27;
+    color: $light-gold;
+    border: #EAE6C1 3px solid;
+  }
+
+  &:focus {
+    box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    -moz-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+    background-color: #402a27;
+    color: $light-gold;
+    border: #EAE6C1 3px solid;
+  }
+}
+
+/*Annonce card*/
+
+.card-container {
+  border: $brown 2px solid;
+  background-color: $very-pale-bg;
+  border-radius: 10px;
+
+  .card-header {
+    background-color: $brown;
+    color: $very-pale-bg;
+    border-radius: 5px;
+  }
+}
+
+.badge-annonce {
+  padding: 10px !important;
+  font-size: 17px;
+}
+
+.button-light-gold {
+  background-color: $light-gold;
+  color: $brown;
+  border: $brown 3px solid;
+
+  &:hover {
+    background-color: $brown;
+    color: $very-pale-gold;
+    border: $dark-gold 3px solid;
+  }
+
+  &:focus {
+    box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    -moz-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    background-color: $light-gold;
+    color: $brown;
+    border: $brown 3px solid;
+  }
+}
+
+/*Search bar*/
+
+.search-bar {
+  .form-control {
+    background-color: $very-pale-bg;
+    border: $brown 1px solid;
+
+    ::after {
+      box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+      -webkit-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+      -moz-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    }
+
+    &:focus {
+      box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+      -webkit-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+      -moz-box-shadow: 0px 3px 5px 2px rgba(242, 240, 220, 0.61);
+    }
+  }
+}
+
+/*Profil*/
+
+.card-profil {
+  width: 50%;
+}
+
+/*New annonce */
+
+.new-annonce {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: $very-pale-bg;
+  border: 2px solid $brown;
+
+  form {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin: 0 auto;
+    color: $brown;
+    background-color: #EAE6C1;
+    border: #402a27 3px solid;
+
+    &:hover {
+      background-color: #402a27;
+      color: $light-gold;
+      border: #EAE6C1 3px solid;
+    }
+
+    &:focus {
+      box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+      -webkit-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+      -moz-box-shadow: 0px 3px 5px 2px rgba(191, 179, 141, 0.91);
+      background-color: #402a27;
+      color: $light-gold;
+      border: #EAE6C1 3px solid;
+    }
+  }
+}
